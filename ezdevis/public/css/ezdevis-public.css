@@ -1,0 +1,731 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+/*Les titres*/
+
+.title{
+
+color: #ffffff;
+text-shadow: 1px 1px 1px black;
+}
+
+.choose{
+
+font-size: 26px;
+font-weight: bold;
+color: #ffffff;
+text-shadow: 1px 1px 1px black;
+
+}
+
+/*Les images*/
+
+.img{
+
+width: auto;
+height: 150px;
+align-items: center;
+    vertical-align: top;
+    padding: 10px;
+
+
+}
+
+
+      /*Le positionnement des div*/
+
+.wrap{
+
+ background: #41818a; /*solution en cas d'echec du gradient color*/
+background: -webkit-linear-gradient(to bottom, #41818a, #45a247); 
+background: linear-gradient(to bottom, #41818a, #45a247);
+border-radius: 15px;
+padding-bottom: 20px;
+color:#ffffff ;
+width: 100%;
+padding: 0;
+border: 0px;
+margin: 0;
+line-height: 40px;
+
+}
+
+
+.big_div {
+ display: flex;
+  justify-content: center;
+  align-items: center;
+    text-align: center;
+    font-size: 18px;
+font-weight: bold;
+ vertical-align: top;
+
+}
+
+
+
+.wrapper_haut{
+line-height: normal;
+  display: inline-block;
+  align-items: center;
+    text-align: center;
+    width: 100%;
+vertical-align:middle;
+}
+
+.div_droite{
+
+float: right;
+display: inline-block;
+align-items: center;
+width: 45%;
+
+
+}
+
+
+.div_gauche{
+
+
+float: left;
+display: inline-block;
+align-items: center;
+
+width: 45%;
+
+}
+
+
+.div_mid_gauche{
+float: left;
+display: inline-block;
+align-items: center;
+
+width: 45%;
+
+
+
+
+}
+
+.div_mid_droite{
+float: right;
+display: inline-block;
+align-items: center;
+width: 45%;
+
+
+
+}
+
+
+.wrapper_mid{
+
+
+
+  display: inline-block;
+  align-items: center;
+    text-align: center;
+    width: 100%;
+vertical-align:top;
+
+
+}
+
+
+fieldset {
+
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-radius: 15px;
+line-height: 40px;
+
+}
+
+label {
+
+margin-bottom: 10px !important;
+
+}
+
+
+        /*Les bulles d'informations*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+    
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 100%;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 110%;
+    left: 0%;
+  
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.center{
+
+padding: 0;
+margin: 0;
+
+}
+
+
+
+
+    /*Les bouttons*/
+
+
+input[type=checkbox] {
+  transform: scale(4) !important;
+ cursor: pointer;
+}
+
+input[type=text], input[type=number], input[type=email], input[type=url]{
+
+border-radius: 15px !important;
+
+
+
+}
+
+
+
+/*Separateur de div*/
+
+.line-separator{
+
+height:1px;
+
+background:#ffffff;
+align-content: center;
+width: 25%;
+border-bottom:1px solid #ffffff;
+
+}
+
+.submit_button:hover{
+
+color: #494949 !important;
+border-radius: 50px;
+border-color: #494949 !important;
+transition: all 0.3s ease 0s;
+
+}
+
+
+
+
+
+
+
+                /*LE RESPONSIVE MEDIA SCREEN*/
+
+@media screen and (min-width: 360px) and (max-width: 1150px) {
+
+
+
+/*Les titres*/
+
+.title{
+
+color: #ffffff;
+text-shadow: 1px 1px 1px black;
+}
+
+.choose{
+
+font-size: 18px;
+font-weight: bold;
+color: #ffffff;
+text-shadow: 1px 1px 1px black;
+
+}
+
+/*Les images*/
+
+.img{
+height: 50px;
+align-items: center;
+    vertical-align: top;
+    padding: 2px;
+
+
+}
+
+
+      /*Le positionnement des div*/
+
+.wrap{
+
+ background: #41818a; /*solution en cas d'echec du gradient color*/
+background: -webkit-linear-gradient(to bottom, #41818a, #45a247); 
+background: linear-gradient(to bottom, #41818a, #45a247);
+border-radius: 15px;
+padding-bottom: 5px;
+color:#ffffff ;
+width: 100%;
+padding: 0;
+border: 0px;
+margin: 0;
+
+
+}
+
+
+.big_div {
+ display: flex;
+  justify-content: center;
+  align-items: center;
+    text-align: center;
+    font-size: 14px;
+font-weight: bold;
+ vertical-align: top;
+
+}
+
+
+
+.wrapper_haut{
+line-height: normal;
+  display: inline-block;
+  align-items: center;
+    text-align: center;
+    width: 100%;
+vertical-align:middle;
+}
+
+.div_droite{
+
+float: right;
+display: inline-block;
+align-items: center;
+width: 100%;
+
+
+}
+
+
+.div_gauche{
+
+
+float: left;
+display: inline-block;
+align-items: center;
+
+width: 100%;
+
+}
+
+
+.div_mid_gauche{
+float: left;
+display: inline-block;
+align-items: center;
+
+width: 100%;
+
+
+
+
+}
+
+.div_mid_droite{
+float: right;
+display: inline-block;
+align-items: center;
+width: 100%;
+
+
+
+}
+
+
+.wrapper_mid{
+
+
+
+  display: inline-block;
+  align-items: center;
+    text-align: center;
+    width: 100%;
+vertical-align:top;
+
+
+}
+
+
+fieldset {
+
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-radius: 15px;
+background: #41818a; /*solution en cas d'echec du gradient color*/
+background: -webkit-linear-gradient(to bottom, #41818a, #45a247); 
+background: linear-gradient(to bottom, #41818a, #45a247);
+line-height: 40px;
+
+}
+
+        /*Les bulles d'informations*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+    
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 100%;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 110%;
+    left: 0%;
+  
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+
+
+    /*Les bouttons*/
+
+
+input[type=checkbox] {
+  transform: scale(2.5) !important;
+  vertical-align: bottom;
+ cursor: pointer;
+}
+
+input[type=text], input[type=number], input[type=email], input[type=url]{
+
+border-radius: 15px !important;
+
+
+
+}
+
+
+
+
+/*Separateur de div*/
+
+.line-separator{
+
+height:1px;
+
+background:#ffffff;
+align-content: center;
+width: 25%;
+border-bottom:1px solid #ffffff;
+
+}
+
+
+form div{
+
+width: 100% !important;
+
+}
+
+
+.ez_fieldset{
+
+
+ background: #41818a; /*solution en cas d'echec du gradient color*/
+background: -webkit-linear-gradient(to bottom, #41818a, #45a247); 
+background: linear-gradient(to bottom, #41818a, #45a247);
+}
+}
+
+
+
+                        /*RESPONSIVE FOR REALLY LITLLE SCREENS*/
+
+
+
+@media screen and (min-width: 0px) and (max-width: 360px){
+
+
+.ez_fieldset{
+
+
+font-size: 12px;
+ background: #41818a; /*solution en cas d'echec du gradient color*/
+background: -webkit-linear-gradient(to bottom, #41818a, #45a247); 
+background: linear-gradient(to bottom, #41818a, #45a247);}
+
+.title{
+
+color: #ffffff;
+text-shadow: 1px 1px 1px black;
+}
+
+.choose{
+
+font-size: 14px;
+font-weight: bold;
+color: #ffffff;
+text-shadow: 1px 1px 1px black;
+
+}
+
+/*Les images*/
+
+.img{
+height: 20px;
+align-items: center;
+    vertical-align: top;
+    padding: 2px;
+    visibility: hidden;
+
+
+}
+
+
+      /*Le positionnement des div*/
+
+.wrap{
+
+ background: #41818a; /*solution en cas d'echec du gradient color*/
+background: -webkit-linear-gradient(to bottom, #41818a, #45a247); 
+background: linear-gradient(to bottom, #41818a, #45a247);
+border-radius: 15px;
+padding-bottom: 5px;
+color:#ffffff ;
+width: 100%;
+padding: 0;
+border: 0px;
+margin: 0;
+
+
+}
+
+
+.big_div {
+ display: flex;
+  justify-content: center;
+  align-items: center;
+    text-align: center;
+    font-size: 12px;
+font-weight: bold;
+ vertical-align: top;
+
+}
+
+
+
+.wrapper_haut{
+line-height: normal;
+  display: inline-block;
+  align-items: center;
+    text-align: center;
+    width: 100%;
+vertical-align:middle;
+}
+
+.div_droite{
+
+float: right;
+display: inline-block;
+align-items: center;
+width: 100%;
+
+
+}
+
+
+.div_gauche{
+
+
+float: left;
+display: inline-block;
+align-items: center;
+
+width: 100%;
+
+}
+
+
+.div_mid_gauche{
+float: left;
+display: inline-block;
+align-items: center;
+
+width: 100%;
+
+
+
+
+}
+
+.div_mid_droite{
+float: right;
+display: inline-block;
+align-items: center;
+width: 100%;
+
+
+
+}
+
+
+.wrapper_mid{
+
+
+
+  display: inline-block;
+  align-items: center;
+    text-align: center;
+    width: 100%;
+vertical-align:top;
+
+
+}
+
+
+fieldset {
+
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-radius: 15px;
+line-height: 40px;
+}
+
+        /*Les bulles d'informations*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+    
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 100%;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 110%;
+    left: 0%;
+  
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+
+
+    /*Les bouttons*/
+
+
+input[type=checkbox] {
+  transform: scale(2.5) !important;
+  vertical-align: bottom;
+   cursor: pointer;
+}
+
+input[type=text], input[type=number], input[type=email], input[type=url]{
+
+border-radius: 15px !important;
+
+
+
+}
+
+
+
+/*Separateur de div*/
+
+.line-separator{
+
+height:1px;
+
+background:#ffffff;
+align-content: center;
+width: 25%;
+border-bottom:1px solid #ffffff;
+
+}
+
+
+form div{
+
+width: 100% !important;
+
+}
+
+
+}
