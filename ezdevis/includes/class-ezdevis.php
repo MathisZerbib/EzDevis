@@ -217,6 +217,9 @@ class Ezdevis {
 	}
 
 }
+
+								/*Foncion pour faire l'export en CSV de la Table wp_ezdevis_client*/
+
   function csv_pull_wpse_212972() {
   global $wpdb;
   $file = 'email_csv'; // ?? not defined in original code
@@ -251,4 +254,9 @@ add_action('wp_ajax_csv_pull','csv_pull_wpse_212972');
 
 
 $ajax_url = admin_url('admin-ajax.php?action=csv_pull');
+
+
+
+
+
 

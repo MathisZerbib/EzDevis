@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Plugin Name:       EzDevis
  * Plugin URI:        https://www.mat-zer.fr/site.com
- * Description:       This Plugin can make contact form and send it threw WordPress to an defined Email. 
+ * Description:       Ce Plugin est un système de devis en ligne facilisant la prospection et les mises en contact par mail.  
  * Version:           1.0.0
  * Author:            Zerbib Mathis
  * Author URI:        https://mathiszerbib.github.io/Cv/Cv-Mathis/index.html
